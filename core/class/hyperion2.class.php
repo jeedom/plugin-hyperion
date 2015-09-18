@@ -52,18 +52,18 @@ class hyperion2 extends eqLogic {
 		$color->setEqLogic_id($this->getId());
 		$color->save();
 
-		$off = $this->getCmd(null, 'off');
-		if (!is_object($off)) {
-			$off = new hyperion2Cmd();
-			$off->setLogicalId('off');
-			$off->setIsVisible(0);
-			$off->setName(__('Off', __FILE__));
-			$off->setOrder(1);
+		$clear = $this->getCmd(null, 'clear');
+		if (!is_object($clear)) {
+			$clear = new hyperion2Cmd();
+			$clear->setLogicalId('clear');
+			$clear->setIsVisible(1);
+			$clear->setName(__('Clear', __FILE__));
+			$clear->setOrder(1);
 		}
-		$off->setType('action');
-		$off->setSubType('other');
-		$off->setEqLogic_id($this->getId());
-		$off->save();
+		$clear->setType('action');
+		$clear->setSubType('other');
+		$clear->setEqLogic_id($this->getId());
+		$clear->save();
 
 		$effects = array('Knight rider', 'Blue mood blobs', 'Cold mood blobs', 'Full color mood blobs', 'Green mood blobs', 'Red mood blobs', 'Warm mood blobs', 'Rainbow mood', 'Rainbow swirl fast', 'Rainbow swirl', 'Snake', 'Strobe blue', 'Strobe Raspbmc', 'Strobe white');
 		foreach ($effects as $effect) {
@@ -94,10 +94,8 @@ class hyperion2Cmd extends cmd {
 	public function execute($_options = array()) {
 		$data = array();
 		$eqLogic = $this->getEqLogic();
-		if ($this->getLogicalId() == 'off') {
-			$data['command'] = 'color';
-			$data['priority'] = 100;
-			$data['color'] = array(0, 0, 0);
+		if ($this->getLogicalId() == 'clear') {
+			$data['command'] = 'clearall';
 		} else if ($this->getLogicalId() == 'color') {
 			$hex = str_replace("#", "", $_options['color']);
 			if (strlen($hex) == 3) {

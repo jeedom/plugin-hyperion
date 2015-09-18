@@ -117,12 +117,16 @@ class hyperion2Cmd extends cmd {
 			$data['priority'] = 100;
 			$data['effect'] = array('name' => $this->getLogicalId());
 		}
+
 		if (count($data) > 0) {
-			$value = json_encode($data);
+			$value = json_encode($data) . "\n";
 			$socket = socket_create(AF_INET, SOCK_STREAM, 0);
-			socket_connect($socket, $eqLogic->getConfiguration('ip'), $eqLogic->getConfiguration('port'));
-			socket_write($socket, $value, strlen($value));
+			socket_connect($socket, $eqLogic->getConfiguration('ip'), $eqLogic->getConfiguration('port', 19444));
+			$result = socket_write($socket, $value, strlen($value));
 			socket_close($socket);
+			if ($result === false) {
+				throw new Exception(socket_strerror(socket_last_error()));
+			}
 		}
 	}
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <info>
     <id>hyperion2</id>
-    <name>Hyperion</name>
+    <name>Ambilight</name>
     <description>Plugin hyperion pour le controle de celui-ci</description>
     <icon>fa fa-lightbulb-o</icon>
     <licence>AGPL</licence>

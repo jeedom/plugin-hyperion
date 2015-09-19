@@ -10,7 +10,7 @@ $eqLogics = eqLogic::byType('hyperion2');
   <div class="col-lg-2 col-md-3 col-sm-4">
     <div class="bs-sidebar">
       <ul id="ul_eqLogic" class="nav nav-list bs-sidenav">
-        <a class="btn btn-default eqLogicAction" style="width : 100%;margin-top : 5px;margin-bottom: 5px;" data-action="add"><i class="fa fa-plus-circle"></i> {{Ajouter un hyperion2}}</a>
+        <a class="btn btn-default eqLogicAction" style="width : 100%;margin-top : 5px;margin-bottom: 5px;" data-action="add"><i class="fa fa-plus-circle"></i> {{Ajouter un ambilight}}</a>
         <li class="filter" style="margin-bottom: 5px;"><input class="filter form-control input-sm" placeholder="{{Rechercher}}" style="width: 100%"/></li>
         <?php
 foreach ($eqLogics as $eqLogic) {
@@ -22,7 +22,7 @@ foreach ($eqLogics as $eqLogic) {
  </div>
 
  <div class="col-lg-10 col-md-9 col-sm-8 eqLogicThumbnailDisplay" style="border-left: solid 1px #EEE; padding-left: 25px;">
-  <legend>{{Mes équipement Hyperions}}
+  <legend>{{Mes équipement Ambilight}}
   </legend>
 
   <div class="eqLogicThumbnailContainer">
@@ -50,10 +50,10 @@ foreach ($eqLogics as $eqLogic) {
     <fieldset>
       <legend><i class="fa fa-arrow-circle-left eqLogicAction cursor" data-action="returnToThumbnailDisplay"></i> {{Général}}  <i class='fa fa-cogs eqLogicAction pull-right cursor expertModeVisible' data-action='configure'></i></legend>
       <div class="form-group">
-        <label class="col-sm-3 control-label">{{Nom de l'équipement hyperion}}</label>
+        <label class="col-sm-3 control-label">{{Nom de l'équipement Ambilight}}</label>
         <div class="col-sm-3">
           <input type="text" class="eqLogicAttr form-control" data-l1key="id" style="display : none;" />
-          <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement hyperion}}"/>
+          <input type="text" class="eqLogicAttr form-control" data-l1key="name" placeholder="{{Nom de l'équipement Ambilight}}"/>
         </div>
       </div>
       <div class="form-group">

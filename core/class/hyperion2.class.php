@@ -57,7 +57,7 @@ class hyperion2 extends eqLogic {
 			$clear = new hyperion2Cmd();
 			$clear->setLogicalId('clear');
 			$clear->setIsVisible(1);
-			$clear->setName(__('Clear', __FILE__));
+			$clear->setName(__('Remise à zéro', __FILE__));
 			$clear->setOrder(1);
 		}
 		$clear->setType('action');
@@ -80,6 +80,62 @@ class hyperion2 extends eqLogic {
 			$cmd->setEqLogic_id($this->getId());
 			$cmd->save();
 		}
+	}
+
+	public function toHtml($_version = 'dashboard') {
+		if ($this->getIsEnable() != 1) {
+			return '';
+		}
+		if (!$this->hasRight('r')) {
+			return '';
+		}
+		$_version = jeedom::versionAlias($_version);
+		if ($this->getDisplay('hideOn' . $_version) == 1) {
+			return '';
+		}
+		$vcolor = 'cmdColor';
+		if ($version == 'mobile') {
+			$vcolor = 'mcmdColor';
+		}
+		$cmdColor = ($this->getPrimaryCategory() == '') ? '' : jeedom::getConfiguration('eqLogic:category:' . $this->getPrimaryCategory() . ':' . $vcolor);
+		if (is_array($parameters) && isset($parameters['background_cmd_color'])) {
+			$cmdColor = $parameters['background_cmd_color'];
+		}
+		$replace = array(
+			'#name#' => $this->getName(),
+			'#id#' => $this->getId(),
+			'#background_color#' => $this->getBackgroundColor($_version),
+			'#eqLink#' => $this->getLinkToConfiguration(),
+			'#cmdColor#' => $cmdColor,
+			'#color#' => '',
+			'#clear#' => '',
+			'#select_effect#' => '<option disabled selected>' . __('Effet...', __FILE__) . '</option>',
+		);
+		$color = $this->getCmd(null, 'color');
+		if (is_object($color)) {
+			$replace['#color#'] = $color->toHtml($_version, '', $cmdColor);
+		}
+
+		$clear = $this->getCmd(null, 'clear');
+		if (is_object($clear)) {
+			$replace['#clear#'] = $clear->toHtml($_version, '', $cmdColor);
+		}
+
+		foreach ($this->getCmd('action') as $cmd) {
+			if ($cmd->getIsVisible() == 1 && $cmd->getDisplay('hideOn' . $_version) != 1 && $cmd->getLogicalId() != 'color' && $cmd->getLogicalId() != 'clear') {
+				$replace['#select_effect#'] .= '<option value="' . $cmd->getId() . '">' . $cmd->getName() . '</option>';
+			}
+		}
+
+		$parameters = $this->getDisplay('parameters');
+		if (is_array($parameters)) {
+			foreach ($parameters as $key => $value) {
+				$replace['#' . $key . '#'] = $value;
+			}
+		}
+
+		$html = template_replace($replace, getTemplate('core', $_version, 'hyperion', 'hyperion2'));
+		return $html;
 	}
 	/*     * **********************Getteur Setteur*************************** */
 }

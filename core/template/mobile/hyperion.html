@@ -1,0 +1,26 @@
+<div class="eqLogic-widget eqLogic hyperion" style="background-color: #background_color#; padding : 0px; #style#" data-eqLogic_id="#id#" data-version="mobile" >
+	<span class="statusCmd" style="position : absolute;left : 5px;bottom : 5px; width : 30px;z-index: 1030;"></span>
+	<center>#name#</center>
+	<center>#color#</center>
+	<center style="margin-top : 10px;">
+		<div class="col-xs-11">
+			<select class="selectEffect" data-native-menu="false" style="background-color:#cmdColor#;color:white;">
+				#select_effect#
+			</select>
+		</div>
+	</center>
+	<center style="margin-top : 5px;">
+		#clear#
+	</center>
+	<script>
+		$('.eqLogic[data-eqLogic_id=#id#] .selectEffect').on('change', function() {
+			jeedom.cmd.execute({id: $(this).value()});
+		});
+	</script>
+	<style type="text/css">
+		.eqLogic[data-eqLogic_id="#id#"] .ui-select{
+			background-color: #cmdColor#;
+		}
+	</style>
+</div>
+

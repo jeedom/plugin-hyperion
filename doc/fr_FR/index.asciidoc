@@ -1,0 +1,5 @@
+= Hyperion
+
+Ce plugin permet la gestion d'un serveur hyperion (il faut que le serveur Json soit actif), avec la gestion des couleurs et le lancement d'effet
+
+include::configuration.asciidoc[]

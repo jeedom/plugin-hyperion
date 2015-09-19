@@ -22,9 +22,17 @@
     var tr = '<tr class="cmd" data-cmd_id="' + init(_cmd.id) + '">';
     tr += '<td>';
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="id" style="display : none;">';
-    tr += '<input class="cmdAttr form-control input-sm" data-l1key="name"></td>';
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="type" style="display : none;">';
     tr += '<input class="cmdAttr form-control input-sm" data-l1key="subType" style="display : none;">';
+    tr += '<div class="row">';
+    tr += '<div class="col-sm-6">';
+    tr += '<a class="cmdAction btn btn-default btn-sm" data-l1key="chooseIcon"><i class="fa fa-flag"></i> Icone</a>';
+    tr += '<span class="cmdAttr" data-l1key="display" data-l2key="icon" style="margin-left : 10px;"></span>';
+    tr += '</div>';
+    tr += '<div class="col-sm-6">';
+    tr += '<input class="cmdAttr form-control input-sm" data-l1key="name">';
+    tr += '</div>';
+    tr += '</div>';
     tr += '</td>';
     tr += '<td>';
     tr += '<span><input type="checkbox" class="cmdAttr bootstrapSwitch" data-size="mini" data-l1key="isVisible" data-label-text=" {{Afficher}}" checked/></span> ';

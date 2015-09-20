@@ -1,4 +1,4 @@
-<div class="eqLogic-widget eqLogic noResize hyperion" style="background-color: #background_color#; padding : 0px; #style#" data-eqLogic_id="#id#" data-version="dashboard" >
+<div class="eqLogic-widget eqLogic noResize hyperion" style="background-color: #background_color#; padding : 0px; #style#" data-eqLogic_id="#id#" data-eqLogic_uid="#uid#" data-version="dashboard" >
 	<span class="statusCmd" style="position : absolute;left : 5px;bottom : 5px; width : 30px;z-index: 1030;"></span>
 	<center><a href="#eqLink#" style="font-size : 1.5em;"> #name# </a></center>
 	<center>#color#</center>
@@ -11,7 +11,7 @@
 		#clear#
 	</center>
 	<script>
-		$('.eqLogic[data-eqLogic_id=#id#] .selectEffect').on('change', function() {
+		$('.eqLogic[data-eqLogic_uid=#uid#] .selectEffect').on('change', function() {
 			jeedom.cmd.execute({id: $(this).value()});
 		});
 	</script>

@@ -111,6 +111,7 @@ class hyperion2 extends eqLogic {
 			'#color#' => '',
 			'#clear#' => '',
 			'#select_effect#' => '<option disabled selected>' . __('Effet...', __FILE__) . '</option>',
+			'#uid#' => 'sonos' . $this->getId() . self::UIDDELIMITER . mt_rand() . self::UIDDELIMITER,
 		);
 		$color = $this->getCmd(null, 'color');
 		if (is_object($color)) {

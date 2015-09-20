@@ -97,6 +97,7 @@ class hyperion2 extends eqLogic {
 		if ($version == 'mobile') {
 			$vcolor = 'mcmdColor';
 		}
+		$parameters = $this->getDisplay('parameters');
 		$cmdColor = ($this->getPrimaryCategory() == '') ? '' : jeedom::getConfiguration('eqLogic:category:' . $this->getPrimaryCategory() . ':' . $vcolor);
 		if (is_array($parameters) && isset($parameters['background_cmd_color'])) {
 			$cmdColor = $parameters['background_cmd_color'];
@@ -126,8 +127,6 @@ class hyperion2 extends eqLogic {
 				$replace['#select_effect#'] .= '<option value="' . $cmd->getId() . '">' . $cmd->getName() . '</option>';
 			}
 		}
-
-		$parameters = $this->getDisplay('parameters');
 		if (is_array($parameters)) {
 			foreach ($parameters as $key => $value) {
 				$replace['#' . $key . '#'] = $value;

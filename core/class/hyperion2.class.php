@@ -94,7 +94,7 @@ class hyperion2 extends eqLogic {
 			return '';
 		}
 		$vcolor = 'cmdColor';
-		if ($version == 'mobile') {
+		if ($_version == 'mobile') {
 			$vcolor = 'mcmdColor';
 		}
 		$parameters = $this->getDisplay('parameters');

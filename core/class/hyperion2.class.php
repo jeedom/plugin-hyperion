@@ -98,7 +98,7 @@ class hyperion2 extends eqLogic {
 			$vcolor = 'mcmdColor';
 		}
 		$parameters = $this->getDisplay('parameters');
-		$cmdColor = ($this->getPrimaryCategory() == '') ? '' : jeedom::getConfiguration('eqLogic:category:' . $this->getPrimaryCategory() . ':' . $vcolor);
+		$cmdColor = ($this->getPrimaryCategory() == '') ? jeedom::getConfiguration('eqLogic:category:default:' . $vcolor) : jeedom::getConfiguration('eqLogic:category:' . $this->getPrimaryCategory() . ':' . $vcolor);
 		if (is_array($parameters) && isset($parameters['background_cmd_color'])) {
 			$cmdColor = $parameters['background_cmd_color'];
 		}

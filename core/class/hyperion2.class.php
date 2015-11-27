@@ -26,6 +26,10 @@ class hyperion2 extends eqLogic {
 
 	/*     * *********************Méthodes d'instance************************* */
 
+	public function preInsert() {
+		$this->setCategory('light', 1);
+	}
+
 	public function preSave() {
 		if ($this->getConfiguration('port') == '') {
 			$this->setConfiguration('port', 19444);

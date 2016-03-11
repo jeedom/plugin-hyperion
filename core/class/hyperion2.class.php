@@ -22,6 +22,8 @@ require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
 class hyperion2 extends eqLogic {
 	/*     * *************************Attributs****************************** */
 
+	public static $_widgetPossibility = array('custom' => true);
+
 	/*     * ***********************Methode static*************************** */
 
 	/*     * *********************Méthodes d'instance************************* */
@@ -87,57 +89,29 @@ class hyperion2 extends eqLogic {
 	}
 
 	public function toHtml($_version = 'dashboard') {
-		if ($this->getIsEnable() != 1) {
-			return '';
-		}
-		if (!$this->hasRight('r')) {
-			return '';
+		$replace = $this->preToHtml($_version);
+		if (!is_array($replace)) {
+			return $replace;
 		}
 		$_version = jeedom::versionAlias($_version);
-		if ($this->getDisplay('hideOn' . $_version) == 1) {
-			return '';
-		}
-		$vcolor = 'cmdColor';
-		if ($_version == 'mobile') {
-			$vcolor = 'mcmdColor';
-		}
-		$parameters = $this->getDisplay('parameters');
-		$cmdColor = ($this->getPrimaryCategory() == '') ? jeedom::getConfiguration('eqLogic:category:default:' . $vcolor) : jeedom::getConfiguration('eqLogic:category:' . $this->getPrimaryCategory() . ':' . $vcolor);
-		if (is_array($parameters) && isset($parameters['background_cmd_color'])) {
-			$cmdColor = $parameters['background_cmd_color'];
-		}
-		$replace = array(
-			'#name#' => $this->getName(),
-			'#id#' => $this->getId(),
-			'#background_color#' => $this->getBackgroundColor($_version),
-			'#eqLink#' => $this->getLinkToConfiguration(),
-			'#cmdColor#' => $cmdColor,
-			'#color#' => '',
-			'#clear#' => '',
-			'#select_effect#' => '<option disabled selected>' . __('Effet...', __FILE__) . '</option>',
-			'#uid#' => 'hyperion' . $this->getId() . self::UIDDELIMITER . mt_rand() . self::UIDDELIMITER,
-		);
+		$replace['#select_effect#'] = '<option disabled selected>' . __('Effet...', __FILE__) . '</option>';
 		$color = $this->getCmd(null, 'color');
 		if (is_object($color)) {
 			$replace['#color#'] = $color->toHtml($_version, '', $cmdColor);
+		} else {
+			$replace['#color#'] = '';
 		}
-
 		$clear = $this->getCmd(null, 'clear');
 		if (is_object($clear)) {
 			$replace['#clear#'] = $clear->toHtml($_version, '', $cmdColor);
+		} else {
+			$replace['#clear#'] = '';
 		}
-
 		foreach ($this->getCmd('action') as $cmd) {
 			if ($cmd->getIsVisible() == 1 && $cmd->getDisplay('hideOn' . $_version) != 1 && $cmd->getLogicalId() != 'color' && $cmd->getLogicalId() != 'clear') {
 				$replace['#select_effect#'] .= '<option value="' . $cmd->getId() . '">' . $cmd->getName() . '</option>';
 			}
 		}
-		if (is_array($parameters)) {
-			foreach ($parameters as $key => $value) {
-				$replace['#' . $key . '#'] = $value;
-			}
-		}
-
 		$html = template_replace($replace, getTemplate('core', $_version, 'hyperion', 'hyperion2'));
 		return $html;
 	}

@@ -93,7 +93,7 @@ class hyperion2 extends eqLogic {
 		if (!is_array($replace)) {
 			return $replace;
 		}
-		$_version = jeedom::versionAlias($_version);
+		$version = jeedom::versionAlias($_version);
 		$replace['#select_effect#'] = '<option disabled selected>' . __('Effet...', __FILE__) . '</option>';
 		$color = $this->getCmd(null, 'color');
 		if (is_object($color)) {
@@ -112,7 +112,7 @@ class hyperion2 extends eqLogic {
 				$replace['#select_effect#'] .= '<option value="' . $cmd->getId() . '">' . $cmd->getName() . '</option>';
 			}
 		}
-		$html = template_replace($replace, getTemplate('core', $_version, 'hyperion', 'hyperion2'));
+		$html = template_replace($replace, getTemplate('core', $version, 'hyperion', 'hyperion2'));
 		return $html;
 	}
 	/*     * **********************Getteur Setteur*************************** */

@@ -97,7 +97,7 @@ class hyperion2 extends eqLogic {
 		$replace['#select_effect#'] = '<option disabled selected>' . __('Effet...', __FILE__) . '</option>';
 		$color = $this->getCmd(null, 'color');
 		if (is_object($color)) {
-			$replace['#color#'] = $color->toHtml($_version, '', $replace['#cmd-background-color#']);
+			$replace['#color_state#'] = $color->toHtml($_version, '', $replace['#cmd-background-color#']);
 		} else {
 			$replace['#color#'] = '';
 		}

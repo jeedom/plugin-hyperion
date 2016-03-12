@@ -97,18 +97,18 @@ class hyperion2 extends eqLogic {
 		$replace['#select_effect#'] = '<option disabled selected>' . __('Effet...', __FILE__) . '</option>';
 		$color = $this->getCmd(null, 'color');
 		if (is_object($color)) {
-			$replace['#color#'] = $color->toHtml($_version, '', $cmdColor);
+			$replace['#color#'] = $color->toHtml($_version, '', $replace['#cmd-background-color#']);
 		} else {
 			$replace['#color#'] = '';
 		}
 		$clear = $this->getCmd(null, 'clear');
 		if (is_object($clear)) {
-			$replace['#clear#'] = $clear->toHtml($_version, '', $cmdColor);
+			$replace['#clear#'] = $clear->toHtml($_version, '', $replace['#cmd-background-color#']);
 		} else {
 			$replace['#clear#'] = '';
 		}
 		foreach ($this->getCmd('action') as $cmd) {
-			if ($cmd->getIsVisible() == 1 && $cmd->getDisplay('hideOn' . $_version) != 1 && $cmd->getLogicalId() != 'color' && $cmd->getLogicalId() != 'clear') {
+			if ($cmd->getIsVisible() == 1 && $cmd->getDisplay('showOn' . $_version, 1) == 1 && $cmd->getLogicalId() != 'color' && $cmd->getLogicalId() != 'clear') {
 				$replace['#select_effect#'] .= '<option value="' . $cmd->getId() . '">' . $cmd->getName() . '</option>';
 			}
 		}

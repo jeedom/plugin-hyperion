@@ -3,10 +3,8 @@
     <id>hyperion2</id>
     <name>Ambilight</name>
     <description>Plugin hyperion pour le controle de celui-ci</description>
-    <icon>fa fa-lightbulb-o</icon>
     <licence>AGPL</licence>
-    <author>Loïc Gevrey</author>
-    <installation>Aucune</installation>
+    <author>Loïc</author>
     <require>2.2</require>
     <category>multimedia</category>
 </info>

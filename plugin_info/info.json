@@ -1,0 +1,9 @@
+{
+	"id" : "hyperion2",
+	"name" : "Ambilight",
+	"description" : "Plugin hyperion pour le controle de celui-ci",
+	"licence" : "AGPL",
+	"author" : "Loïc",
+	"require" : "2.4",
+	"category" : "multimedia"
+}

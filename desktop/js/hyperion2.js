@@ -14,7 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
-
+ $('#bt_healthambilight').on('click', function () {
+    $('#md_modal').dialog({title: "{{Santé Ambilight}}"});
+    $('#md_modal').load('index.php?v=d&plugin=hyperion2&modal=health').dialog('open');
+});
  function addCmdToTable(_cmd) {
     if (!isset(_cmd)) {
         var _cmd = {configuration: {}};
@@ -35,7 +38,7 @@
     tr += '</div>';
     tr += '</td>';
     tr += '<td>';
-    tr += '<span><input type="checkbox" class="cmdAttr bootstrapSwitch" data-size="mini" data-l1key="isVisible" data-label-text=" {{Afficher}}" checked/></span> ';
+    tr += '<span><label class="checkbox-inline"><input type="checkbox" class="cmdAttr checkbox-inline" data-l1key="isVisible" checked/>{{Afficher}}</label></span> ';
     tr += '</td>';
     tr += '<td>';
     if (is_numeric(_cmd.id)) {

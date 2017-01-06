@@ -1,10 +1,10 @@
-== Configuration du plugin
+== Plugin Konfiguration
 
 Après téléchargement du plugin, il vous suffit juste d'activer celui-ci, il n'y a aucune configuration à ce niveau.
 
 image::../images/hyperion.PNG[]
 
-== Configuration des équipements
+== Geräte Konfiguration
 
 La configuration des équipements Ambilight est accessible à partir du menu plugin : 
 

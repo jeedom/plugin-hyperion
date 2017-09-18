@@ -4,6 +4,8 @@
 	"description" : "Plugin hyperion pour le controle de celui-ci",
 	"licence" : "AGPL",
 	"author" : "Loïc",
-	"require" : "2.4",
-	"category" : "multimedia"
+	"require" : "3.0",
+	"category" : "multimedia",
+	"changelog" : "https://github.com/jeedom/plugin-hyperion/blob/stable/doc/#language#/changelog.asciidoc",
+	"documentation" : "https://github.com/jeedom/plugin-hyperion/blob/stable/doc/#language#/index.asciidoc"
 }

@@ -6,6 +6,6 @@
 	"author" : "Loïc",
 	"require" : "3.0",
 	"category" : "multimedia",
-	"changelog" : "https://jeedom.github.io/plugin-hyperion/fr_FR/changelog",
-	"documentation" : "https://jeedom.github.io/plugin-hyperion/fr_FR/"
+	"changelog" : "https://jeedom.github.io/plugin-hyperion/#language#/changelog",
+	"documentation" : "https://jeedom.github.io/plugin-hyperion/#language#/"
 }

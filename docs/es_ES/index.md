@@ -33,12 +33,12 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![hyperion4](../images/hyperion4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Aquí encontrará toda la configuración de su dispositivo:
 
 -   **Nom de l’équipement Ambilight** : nom de votre équipement
     Ambilight,
 
--   **Objet parent** : indique l’objet parent auquel appartient
+-   **Objeto padre** : especifica el objeto padre al que pertenece
     l’équipement,
 
 -   **Activer** : permet de rendre votre équipement actif,
@@ -49,7 +49,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
 
 -   **Port** : le port du serveur hyperion json (par défaut 19444)
 
-En dessous vous retrouvez la liste des commandes :
+A continuación encontrará la lista de ordenes :
 
 -   **Nom** : le nom affiché sur le dashboard,
 

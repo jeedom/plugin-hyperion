@@ -33,7 +33,7 @@ Une fois que vous cliquez sur l’un d’eux, vous obtenez :
 
 ![hyperion4](../images/hyperion4.PNG)
 
-Vous retrouvez ici toute la configuration de votre équipement :
+Hier finden sie die ganze Konfiguration Ihrer Geräte:
 
 -   **Nom de l’équipement Ambilight** : nom de votre équipement
     Ambilight,
@@ -49,7 +49,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
 
 -   **Port** : le port du serveur hyperion json (par défaut 19444)
 
-En dessous vous retrouvez la liste des commandes :
+Im unteren Bereich finden sie eine Liste der Befehle :
 
 -   **Nom** : le nom affiché sur le dashboard,
 

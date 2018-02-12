@@ -4,12 +4,12 @@ d’effet
 
 == Plugin configuration
 
-Après téléchargement du plugin, il vous suffit juste d’activer celui-ci,
-il n’y a aucune configuration à ce niveau.
+After downloading the plugin, you just have to activate it,
+there is no configuration at this level.
 
 ![hyperion](../images/hyperion.PNG)
 
-Configuration des équipements 
+Equipment configuration
 =============================
 
 La configuration des équipements Ambilight est accessible à partir du

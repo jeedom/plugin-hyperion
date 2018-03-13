@@ -1,0 +1,60 @@
+Ce plugin permet la gestion d’un serveur hyperion (il faut que le
+serveur Json soit actif), avec la gestion des couleurs et le lancement
+d’effet
+
+Plugin-Konfiguration
+=======================
+
+Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
+gibt es auf dieser Ebene keine Konfiguration.
+
+![hyperion](../images/hyperion.PNG)
+
+Gerätekonfiguration
+=============================
+
+La configuration des équipements Ambilight est accessible à partir du
+menu Plugins :
+
+![hyperion2](../images/hyperion2.PNG)
+
+Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
+équipement) :
+
+![hyperion3](../images/hyperion3.PNG)
+
+> **Tip**
+>
+> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
+> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
+> partir de votre profil, le laisser toujours visible).
+
+Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+
+![hyperion4](../images/hyperion4.PNG)
+
+Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+
+-   **Nom de l’équipement Ambilight** : nom de votre équipement
+    Ambilight,
+
+-   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+    Ausrüstung,
+
+-   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
+
+-   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
+
+-   **IP** : L’IP du serveur hyperion
+
+-   **Port** : le port du serveur hyperion json (par défaut 19444)
+
+En dessous vous retrouvez la liste des commandes :
+
+-   **Nom** : le nom affiché sur le dashboard,
+
+-   **Afficher** : permet d’afficher la donnée sur le dashboard
+
+-   **Tester** : permet de tester la commande,
+
+

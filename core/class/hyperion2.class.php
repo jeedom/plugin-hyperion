@@ -57,6 +57,19 @@ class hyperion2 extends eqLogic {
 		$color->setSubType('color');
 		$color->setEqLogic_id($this->getId());
 		$color->save();
+		
+		$off = $this->getCmd(null, 'off');
+		if (!is_object($off)) {
+			$off = new hyperion2Cmd();
+			$off->setLogicalId('off');
+			$off->setIsVisible(1);
+			$off->setName(__('Off', __FILE__));
+			$off->setOrder(0);
+		}
+		$off->setType('action');
+		$off->setSubType('other');
+		$off->setEqLogic_id($this->getId());
+		$off->save();
 
 		$clear = $this->getCmd(null, 'clear');
 		if (!is_object($clear)) {
@@ -132,6 +145,10 @@ class hyperion2Cmd extends cmd {
 		$eqLogic = $this->getEqLogic();
 		if ($this->getLogicalId() == 'clear') {
 			$data['command'] = 'clearall';
+		} if ($this->getLogicalId() == 'off') {
+			$data['command'] = 'color';
+			$data['priority'] = 100;
+			$data['color'] = array(0, 0, 0);
 		} else if ($this->getLogicalId() == 'color') {
 			$hex = str_replace("#", "", $_options['color']);
 			if (strlen($hex) == 3) {

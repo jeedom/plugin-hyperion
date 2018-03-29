@@ -145,7 +145,7 @@ class hyperion2Cmd extends cmd {
 		$eqLogic = $this->getEqLogic();
 		if ($this->getLogicalId() == 'clear') {
 			$data['command'] = 'clearall';
-		} if ($this->getLogicalId() == 'off') {
+		} else if ($this->getLogicalId() == 'off') {
 			$data['command'] = 'color';
 			$data['priority'] = 100;
 			$data['color'] = array(0, 0, 0);

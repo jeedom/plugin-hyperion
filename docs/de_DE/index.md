@@ -49,7 +49,7 @@ Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Port** : le port du serveur hyperion json (par défaut 19444)
 
-En dessous vous retrouvez la liste des commandes :
+Im unteren Bereich finden sie eine Liste der Befehle :
 
 -   **Nom** : le nom affiché sur le dashboard,
 

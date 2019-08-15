@@ -25,11 +25,11 @@ Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
 
 > **Tip**
 >
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
+> Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein
+> Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil
+> immer sichtbar einstellen).  
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+Sobald Sie eines davon anklicken, erhalten Sie :
 
 ![hyperion4](../images/hyperion4.PNG)
 
@@ -49,7 +49,7 @@ Sie werden hier alle die Konfiguration Ihrer Geräte finden:
 
 -   **Port** : le port du serveur hyperion json (par défaut 19444)
 
-En dessous vous retrouvez la liste des commandes :
+Im unteren Bereich finden sie eine Liste der Befehle :
 
 -   **Nom** : le nom affiché sur le dashboard,
 

@@ -100,34 +100,6 @@ class hyperion2 extends eqLogic {
 			$cmd->save();
 		}
 	}
-
-	public function toHtml($_version = 'dashboard') {
-		$replace = $this->preToHtml($_version);
-		if (!is_array($replace)) {
-			return $replace;
-		}
-		$version = jeedom::versionAlias($_version);
-		$replace['#select_effect#'] = '<option disabled selected>' . __('Effet...', __FILE__) . '</option>';
-		$color = $this->getCmd(null, 'color');
-		if (is_object($color)) {
-			$replace['#color_state#'] = $color->toHtml($_version, '', $replace['#cmd-background-color#']);
-		} else {
-			$replace['#color#'] = '';
-		}
-		$clear = $this->getCmd(null, 'clear');
-		if (is_object($clear)) {
-			$replace['#clear#'] = $clear->toHtml($_version, '', $replace['#cmd-background-color#']);
-		} else {
-			$replace['#clear#'] = '';
-		}
-		foreach ($this->getCmd('action') as $cmd) {
-			if ($cmd->getIsVisible() == 1 && $cmd->getDisplay('showOn' . $_version, 1) == 1 && $cmd->getLogicalId() != 'color' && $cmd->getLogicalId() != 'clear') {
-				$replace['#select_effect#'] .= '<option value="' . $cmd->getId() . '">' . $cmd->getName() . '</option>';
-			}
-		}
-		$html = template_replace($replace, getTemplate('core', $version, 'hyperion', 'hyperion2'));
-		return $html;
-	}
 	/*     * **********************Getteur Setteur*************************** */
 }
 

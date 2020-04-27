@@ -1,33 +1,28 @@
 {
-    "desktop\/modal\/health.php": {
+    "plugins\/hyperion2\/desktop\/modal\/health.php": {
         "Module": "Modul",
         "ID": "Identifikation",
         "IP": "IP",
         "Date création": "Erstellungsdatum"
     },
-    "desktop\/js\/hyperion2.js": {
-        "Santé Ambilight": "Ambilight Health",
-        "Afficher": "Anzeige",
-        "Tester": "Test"
-    },
-    "desktop\/php\/hyperion2.php": {
+    "plugins\/hyperion2\/desktop\/php\/hyperion2.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
-        "Ajouter un ambilight": "Fügen Sie ein Ambilight hinzu",
-        "Rechercher": "Suche",
-        "Gestion": "Management",
+        "Ajouter un ambilight": "",
+        "Rechercher": "Suchen nach",
+        "Gestion": "Verwaltung",
         "Configuration": "Konfiguration",
         "Santé": "Gesundheit",
-        "Mes Ambilight": "Mein Ambilight",
-        "Sauvegarder": "speichern",
-        "Supprimer": "Entfernen",
-        "Equipement": "Ausrüstung",
+        "Mes Ambilight": "",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
+        "Equipement": "Gerät",
         "Commandes": "Befehle",
-        "Général": "General",
-        "Nom de l'équipement Ambilight": "Name der Ambilight-Ausrüstung",
+        "Général": "Allgemein",
+        "Nom de l'équipement Ambilight": "",
         "Objet parent": "Übergeordnetes Objekt",
-        "Aucun": "keine",
-        "Activer": "activate",
-        "Visible": "sichtbar",
+        "Aucun": "Ohne",
+        "Activer": "Aktivieren",
+        "Visible": "Sichtbar",
         "Catégorie": "Kategorie",
         "IP": "IP",
         "Port": "Hafen",
@@ -35,10 +30,15 @@
         "Options": "Optionen",
         "Action": "Aktion"
     },
-    "core\/class\/hyperion2.class.php": {
-        "L\\'adresse IP ne peut être vide": "IP address cannot be empty",
-        "Couleur": "Color",
-        "Off": "off",
-        "Remise à zéro": "Reset"
+    "plugins\/hyperion2\/desktop\/js\/hyperion2.js": {
+        "Santé Ambilight": "",
+        "Afficher": "Anzeige",
+        "Tester": "Test"
+    },
+    "plugins\/hyperion2\/core\/class\/hyperion2.class.php": {
+        "L\\'adresse IP ne peut être vide": "",
+        "Couleur": "Farbe",
+        "Off": "Aus",
+        "Remise à zéro": "Rücksetzen"
     }
 }

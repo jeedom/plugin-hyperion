@@ -1,44 +1,44 @@
 {
-    "desktop\/modal\/health.php": {
-        "Module": "módulo",
-        "ID": "identificación",
+    "plugins\/hyperion2\/desktop\/modal\/health.php": {
+        "Module": "Modulo",
+        "ID": "Identificación",
         "IP": "IP",
         "Date création": "Fecha de creación"
     },
-    "desktop\/js\/hyperion2.js": {
-        "Santé Ambilight": "Salud Ambilight",
-        "Afficher": "visualización",
-        "Tester": "prueba"
-    },
-    "desktop\/php\/hyperion2.php": {
+    "plugins\/hyperion2\/desktop\/php\/hyperion2.php": {
         "401 - Accès non autorisé": "401 - Acceso no autorizado",
-        "Ajouter un ambilight": "Añadir un ambilight",
+        "Ajouter un ambilight": "",
         "Rechercher": "Buscar",
-        "Gestion": "administración",
-        "Configuration": "configuración",
-        "Santé": "salud",
-        "Mes Ambilight": "Mi ambilight",
+        "Gestion": "Gestión",
+        "Configuration": "Configuración",
+        "Santé": "Salud",
+        "Mes Ambilight": "",
         "Sauvegarder": "Guardar",
-        "Supprimer": "remove",
-        "Equipement": "equipo",
-        "Commandes": "comandos",
-        "Général": "general",
-        "Nom de l'équipement Ambilight": "Nombre del equipo de Ambilight",
+        "Supprimer": "Borrar",
+        "Equipement": "Dispositivos",
+        "Commandes": "Comandos",
+        "Général": "Principal",
+        "Nom de l'équipement Ambilight": "",
         "Objet parent": "Objeto padre",
-        "Aucun": "no",
+        "Aucun": "Ninguna",
         "Activer": "Activar",
-        "Visible": "visible",
-        "Catégorie": "categoría",
+        "Visible": "Visible",
+        "Catégorie": "Categoría",
         "IP": "IP",
-        "Port": "puerto",
-        "Nom": "apellido",
-        "Options": "opciones",
-        "Action": "acción"
+        "Port": "Puerto",
+        "Nom": "Nombre",
+        "Options": "Opciones",
+        "Action": "Acción"
     },
-    "core\/class\/hyperion2.class.php": {
-        "L\\'adresse IP ne peut être vide": "IP address cannot be empty",
+    "plugins\/hyperion2\/desktop\/js\/hyperion2.js": {
+        "Santé Ambilight": "",
+        "Afficher": "Mostrar",
+        "Tester": "Probar"
+    },
+    "plugins\/hyperion2\/core\/class\/hyperion2.class.php": {
+        "L\\'adresse IP ne peut être vide": "La dirección IP no puede estar vacía",
         "Couleur": "Color",
-        "Off": "off",
-        "Remise à zéro": "Reset"
+        "Off": "Apagado",
+        "Remise à zéro": "Resetear a cero"
     }
 }

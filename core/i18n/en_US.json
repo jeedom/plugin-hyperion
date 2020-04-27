@@ -1,44 +1,44 @@
 {
-    "desktop\/modal\/health.php": {
+    "plugins\/hyperion2\/desktop\/modal\/health.php": {
         "Module": "Module",
         "ID": "ID",
         "IP": "IP",
         "Date création": "Creation Date"
     },
-    "desktop\/js\/hyperion2.js": {
-        "Santé Ambilight": "Ambilight Health",
-        "Afficher": "Pin up",
-        "Tester": "Test"
-    },
-    "desktop\/php\/hyperion2.php": {
+    "plugins\/hyperion2\/desktop\/php\/hyperion2.php": {
         "401 - Accès non autorisé": "401 - Unauthorized access",
-        "Ajouter un ambilight": "Add an ambilight",
+        "Ajouter un ambilight": "",
         "Rechercher": "Search",
         "Gestion": "Management",
-        "Configuration": "Configuration",
+        "Configuration": "Setup",
         "Santé": "Health",
-        "Mes Ambilight": "My Ambilight",
+        "Mes Ambilight": "",
         "Sauvegarder": "Save",
-        "Supprimer": "Remove",
+        "Supprimer": "Delete",
         "Equipement": "Equipment",
-        "Commandes": "Orders",
-        "Général": "General",
-        "Nom de l'équipement Ambilight": "Ambilight equipment name",
+        "Commandes": "Commands",
+        "Général": "Main",
+        "Nom de l'équipement Ambilight": "",
         "Objet parent": "Parent object",
-        "Aucun": "No",
+        "Aucun": "None",
         "Activer": "Activate",
         "Visible": "Visible",
         "Catégorie": "Category",
         "IP": "IP",
-        "Port": "Harbor",
-        "Nom": "Last name",
-        "Options": "options",
+        "Port": "Port",
+        "Nom": "Name",
+        "Options": "Options",
         "Action": "Action"
     },
-    "core\/class\/hyperion2.class.php": {
-        "L\\'adresse IP ne peut être vide": "IP address cannot be empty",
+    "plugins\/hyperion2\/desktop\/js\/hyperion2.js": {
+        "Santé Ambilight": "",
+        "Afficher": "Show",
+        "Tester": "Test"
+    },
+    "plugins\/hyperion2\/core\/class\/hyperion2.class.php": {
+        "L\\'adresse IP ne peut être vide": "IP address can't be empty",
         "Couleur": "Color",
-        "Off": "off",
+        "Off": "Off",
         "Remise à zéro": "Reset"
     }
 }

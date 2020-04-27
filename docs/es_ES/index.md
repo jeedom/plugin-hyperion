@@ -1,60 +1,60 @@
-Ce plugin permet la gestion d’un serveur hyperion (il faut que le
-serveur Json soit actif), avec la gestion des couleurs et le lancement
-d’effet
 
-configuración del plugin
+
+
+
+Configuración del plugin 
 =======================
 
-Después de descargar el plugin, sólo hay que activarlo,
-no hay ninguna configuración a este nivel.
+Después de descargar el complemento, solo necesita activarlo,
+no hay configuración a este nivel.
 
 ![hyperion](../images/hyperion.PNG)
 
-Configuración del dispositivo
+Configuración del equipo 
 =============================
 
-La configuration des équipements Ambilight est accessible à partir du
-menu Plugins :
+
+Menú de complementos :
 
 ![hyperion2](../images/hyperion2.PNG)
 
-Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
-équipement) :
+
+equipos) :
 
 ![hyperion3](../images/hyperion3.PNG)
 
-> **Tip**
+> **Punta**
 >
-> Comme à beaucoup d’endroits sur Jeedom, placer la souris tout à gauche
-> permet de faire apparaître un menu d’accès rapide (vous pouvez, à
-> partir de votre profil, le laisser toujours visible).
+> 
+> 
+> .
 
-Une fois que vous cliquez sur l’un d’eux, vous obtenez :
+ :
 
 ![hyperion4](../images/hyperion4.PNG)
 
-Aquí encontrará toda la configuración de su dispositivo:
+Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nom de l’équipement Ambilight** : nom de votre équipement
-    Ambilight,
+-   **** : 
+    ,
 
--   **Objeto padre** : especifica el objeto padre al que pertenece
-    equipos,
+-   **Objeto padre** : indica el objeto padre al que pertenece
+    equipo,
 
--   ** ** Activar: para que su equipo activo,
+-   **Activar** : activa su equipo,
 
--   ** ** visible hace que su equipo visible en el salpicadero,
+-   **Visible** : hace que su equipo sea visible en el tablero,
 
--   **IP** : L’IP du serveur hyperion
+-   **IP** : 
 
--   **Port** : le port du serveur hyperion json (par défaut 19444)
+-   **Puerto** : 
 
-A continuación encontrará la lista de ordenes :
+A continuación encontrará la lista de pedidos. :
 
--   **Nom** : le nom affiché sur le dashboard,
+-   **Nombre** : el nombre que se muestra en el tablero,
 
--   **Afficher** : permet d’afficher la donnée sur le dashboard
+-   **Mostrar** : permite mostrar los datos en el tablero
 
--   **Tester** : permet de tester la commande,
+-   **Probar** : Se usa para probar el comando,
 
 

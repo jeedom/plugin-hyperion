@@ -1,44 +1,44 @@
 {
-    "desktop\/modal\/health.php": {
-        "Module": "Module",
-        "ID": "ID",
-        "IP": "IP",
-        "Date création": "Date création"
+    "plugins\/hyperion2\/desktop\/modal\/health.php": {
+        "Module": "",
+        "ID": "",
+        "IP": "",
+        "Date création": ""
     },
-    "desktop\/js\/hyperion2.js": {
-        "Santé Ambilight": "Santé Ambilight",
-        "Afficher": "Afficher",
-        "Tester": "Tester"
+    "plugins\/hyperion2\/desktop\/php\/hyperion2.php": {
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
+        "Ajouter un ambilight": "",
+        "Rechercher": "Pencarian",
+        "Gestion": "Manajemen",
+        "Configuration": "Konfigurasi",
+        "Santé": "Bidang Kesehatan",
+        "Mes Ambilight": "",
+        "Sauvegarder": "Menyimpan",
+        "Supprimer": "Menghapus",
+        "Equipement": "Peralatan",
+        "Commandes": "Perintah",
+        "Général": "Umum",
+        "Nom de l'équipement Ambilight": "",
+        "Objet parent": "Objek induk",
+        "Aucun": "Tak ada",
+        "Activer": "Mengaktifkan",
+        "Visible": "Terlihat",
+        "Catégorie": "Kategori",
+        "IP": "",
+        "Port": "",
+        "Nom": "Nama",
+        "Options": "Pilihan",
+        "Action": "Tindakan"
     },
-    "desktop\/php\/hyperion2.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Ajouter un ambilight": "Ajouter un ambilight",
-        "Rechercher": "Rechercher",
-        "Gestion": "Gestion",
-        "Configuration": "Configuration",
-        "Santé": "Santé",
-        "Mes Ambilight": "Mes Ambilight",
-        "Sauvegarder": "Sauvegarder",
-        "Supprimer": "Supprimer",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
-        "Général": "Général",
-        "Nom de l'équipement Ambilight": "Nom de l'équipement Ambilight",
-        "Objet parent": "Objet parent",
-        "Aucun": "Aucun",
-        "Activer": "Activer",
-        "Visible": "Visible",
-        "Catégorie": "Catégorie",
-        "IP": "IP",
-        "Port": "Port",
-        "Nom": "Nom",
-        "Options": "Options",
-        "Action": "Action"
+    "plugins\/hyperion2\/desktop\/js\/hyperion2.js": {
+        "Santé Ambilight": "",
+        "Afficher": "Memenitikan",
+        "Tester": "Coba"
     },
-    "core\/class\/hyperion2.class.php": {
-        "L\\'adresse IP ne peut être vide": "IP address cannot be empty",
-        "Couleur": "Color",
-        "Off": "off",
-        "Remise à zéro": "Reset"
+    "plugins\/hyperion2\/core\/class\/hyperion2.class.php": {
+        "L\\'adresse IP ne peut être vide": "",
+        "Couleur": "Warna",
+        "Off": "",
+        "Remise à zéro": "Ulang"
     }
 }

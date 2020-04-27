@@ -1,44 +1,44 @@
 {
-    "desktop\/modal\/health.php": {
-        "Module": "Module",
-        "ID": "ID",
-        "IP": "IP",
-        "Date création": "Date création"
+    "plugins\/hyperion2\/desktop\/modal\/health.php": {
+        "Module": "",
+        "ID": "",
+        "IP": "",
+        "Date création": ""
     },
-    "desktop\/js\/hyperion2.js": {
-        "Santé Ambilight": "Santé Ambilight",
-        "Afficher": "Afficher",
-        "Tester": "Tester"
+    "plugins\/hyperion2\/desktop\/php\/hyperion2.php": {
+        "401 - Accès non autorisé": "401-不正アクセス",
+        "Ajouter un ambilight": "",
+        "Rechercher": "検索",
+        "Gestion": "管理",
+        "Configuration": "コンフィギュレーション",
+        "Santé": "健康",
+        "Mes Ambilight": "",
+        "Sauvegarder": "セーブ",
+        "Supprimer": "取り除きます",
+        "Equipement": "設備",
+        "Commandes": "コマンド",
+        "Général": "コモン",
+        "Nom de l'équipement Ambilight": "",
+        "Objet parent": "親オブジェクト",
+        "Aucun": "何でもありません",
+        "Activer": "アクティブ",
+        "Visible": "目に見えます",
+        "Catégorie": "カテゴリ",
+        "IP": "",
+        "Port": "ポート",
+        "Nom": "表題",
+        "Options": "オプション",
+        "Action": "アクション"
     },
-    "desktop\/php\/hyperion2.php": {
-        "401 - Accès non autorisé": "401 - Accès non autorisé",
-        "Ajouter un ambilight": "Ajouter un ambilight",
-        "Rechercher": "Rechercher",
-        "Gestion": "Gestion",
-        "Configuration": "Configuration",
-        "Santé": "Santé",
-        "Mes Ambilight": "Mes Ambilight",
-        "Sauvegarder": "Sauvegarder",
-        "Supprimer": "Supprimer",
-        "Equipement": "Equipement",
-        "Commandes": "Commandes",
-        "Général": "Général",
-        "Nom de l'équipement Ambilight": "Nom de l'équipement Ambilight",
-        "Objet parent": "Objet parent",
-        "Aucun": "Aucun",
-        "Activer": "Activer",
-        "Visible": "Visible",
-        "Catégorie": "Catégorie",
-        "IP": "IP",
-        "Port": "Port",
-        "Nom": "Nom",
-        "Options": "Options",
-        "Action": "Action"
+    "plugins\/hyperion2\/desktop\/js\/hyperion2.js": {
+        "Santé Ambilight": "",
+        "Afficher": "ディスプレイ",
+        "Tester": "テスト"
     },
-    "core\/class\/hyperion2.class.php": {
-        "L\\'adresse IP ne peut être vide": "IP address cannot be empty",
-        "Couleur": "Color",
-        "Off": "off",
-        "Remise à zéro": "Reset"
+    "plugins\/hyperion2\/core\/class\/hyperion2.class.php": {
+        "L\\'adresse IP ne peut être vide": "",
+        "Couleur": "カラー",
+        "Off": "オフ",
+        "Remise à zéro": "リセット"
     }
 }

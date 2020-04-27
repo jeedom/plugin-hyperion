@@ -1,60 +1,60 @@
-Ce plugin permet la gestion d’un serveur hyperion (il faut que le
-serveur Json soit actif), avec la gestion des couleurs et le lancement
-d’effet
 
-Plugin-Konfiguration
+
+
+
+Plugin Konfiguration 
 =======================
 
-Nachdem das Plugin herunterzuladen, müssen Sie nur um es zu aktivieren,
-gibt es auf dieser Ebene keine Konfiguration.
+Nach dem Herunterladen des Plugins müssen Sie es nur noch aktivieren,
+Auf dieser Ebene gibt es keine Konfiguration.
 
 ![hyperion](../images/hyperion.PNG)
 
-Gerätekonfiguration
+Gerätekonfiguration 
 =============================
 
-La configuration des équipements Ambilight est accessible à partir du
-menu Plugins :
+
+Plugins-Menü :
 
 ![hyperion2](../images/hyperion2.PNG)
 
-Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1
-équipement) :
+
+Ausrüstung) :
 
 ![hyperion3](../images/hyperion3.PNG)
 
-> **Tip**
+> **Spitze**
 >
-> Wie an vielen Stellen in Jeedom kann mit dem Mauszeiger ganz links, ein
-> Menü mit Schnellzugriff aufgerufen werden (Sie können in Ihrem Profil
-> immer sichtbar einstellen).  
+> 
+> 
+> .
 
-Sobald Sie eines davon anklicken, erhalten Sie :
+ :
 
 ![hyperion4](../images/hyperion4.PNG)
 
-Sie werden hier alle die Konfiguration Ihrer Geräte finden:
+Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Nom de l’équipement Ambilight** : nom de votre équipement
-    Ambilight,
+-   **** : 
+    ,
 
--   **Übergeordnete Objekt** zeigt das übergeordnete Objekt gehört
+-   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
     Ausrüstung,
 
--   **Aktivieren**: auf Ihre aktive Ausrüstung zu machen,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
 
--   Visible ** ** macht Ihr Gerät sichtbar auf dem Armaturenbrett,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 
--   **IP** : L’IP du serveur hyperion
+-   **IP** : 
 
--   **Port** : le port du serveur hyperion json (par défaut 19444)
+-   **Hafen** : 
 
-Im unteren Bereich finden sie eine Liste der Befehle :
+Nachfolgend finden Sie die Liste der Bestellungen :
 
--   **Nom** : le nom affiché sur le dashboard,
+-   **Name** : Der im Dashboard angezeigte Name,
 
--   **Afficher** : permet d’afficher la donnée sur le dashboard
+-   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard
 
--   **Tester** : permet de tester la commande,
+-   **Test** : Wird zum Testen des Befehls verwendet,
 
 

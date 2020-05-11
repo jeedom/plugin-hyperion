@@ -1,6 +1,6 @@
 This plugin allows the management of a hyperion server (the
 Json server is active), with color management and launch
-d'effet
+effect
 
 Plugin configuration 
 =======================
@@ -41,7 +41,7 @@ Here you find all the configuration of your equipment :
 -   **Parent object** : indicates the parent object to which belongs
     equipment,
 
--   **Activer** : makes your equipment active,
+-   **Activate** : makes your equipment active,
 
 -   **Visible** : makes your equipment visible on the dashboard,
 
@@ -51,10 +51,10 @@ Here you find all the configuration of your equipment :
 
 Below you find the list of orders :
 
--   **Nom** : the name displayed on the dashboard,
+-   **Name** : the name displayed on the dashboard,
 
--   **Afficher** : allows to display the data on the dashboard
+-   **Show** : allows to display the data on the dashboard
 
--   **Tester** : Used to test the command,
+-   **Test** : Used to test the command,
 
 

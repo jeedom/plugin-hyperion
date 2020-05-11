@@ -1,6 +1,6 @@
 Este complemento permite la gestión de un servidor Hyperion (el
 El servidor Json está activo), con gestión de color y lanzamiento
-d'effet
+efecto
 
 Configuración del plugin 
 =======================
@@ -23,7 +23,7 @@ equipos) :
 
 ![hyperion3](../images/hyperion3.PNG)
 
-> **Tip**
+> **Punta**
 >
 > Como en muchos lugares de Jeedom, coloca el mouse en el extremo izquierdo
 > muestra un menú de acceso rápido (puede, en
@@ -41,20 +41,20 @@ Aquí encontrarás toda la configuración de tu equipo :
 -   **Objeto padre** : indica el objeto padre al que pertenece
     equipo,
 
--   **Activer** : activa su equipo,
+-   **Activar** : activa su equipo,
 
 -   **Visible** : hace que su equipo sea visible en el tablero,
 
 -   **IP** : La IP del servidor hyperion
 
--   **Port** : el puerto del servidor hyperion json (por defecto 19444)
+-   **Puerto** : el puerto del servidor hyperion json (por defecto 19444)
 
 A continuación encontrará la lista de pedidos. :
 
--   **Nom** : el nombre que se muestra en el tablero,
+-   **Nombre** : el nombre que se muestra en el tablero,
 
--   **Afficher** : permite mostrar los datos en el tablero
+-   **Mostrar** : permite mostrar los datos en el tablero
 
--   **Tester** : Se usa para probar el comando,
+-   **Probar** : Se usa para probar el comando,
 
 

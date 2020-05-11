@@ -1,6 +1,6 @@
 Dieses Plugin ermöglicht die Verwaltung eines Hyperion-Servers (der
 Json-Server ist aktiv), mit Farbmanagement und Start
-d'effet
+Wirkung
 
 Plugin Konfiguration 
 =======================
@@ -23,7 +23,7 @@ Ausrüstung) :
 
 ![hyperion3](../images/hyperion3.PNG)
 
-> **Tip**
+> **Spitze**
 >
 > Platzieren Sie wie an vielen Stellen in Jeedom die Maus ganz links
 > ruft ein Schnellzugriffsmenü auf (Sie können unter
@@ -41,20 +41,20 @@ Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 -   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört
     Ausrüstung,
 
--   **Activer** : macht Ihre Ausrüstung aktiv,
+-   **Aktivieren** : macht Ihre Ausrüstung aktiv,
 
--   **Visible** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
+-   **Sichtbar** : macht Ihre Ausrüstung auf dem Armaturenbrett sichtbar,
 
 -   **IP** : Die Hyperion-Server-IP
 
--   **Port** : der Hafen des Hyperion JSON-Servers (standardmäßig 19444)
+-   **Hafen** : der Port des Hyperion JSON-Servers (standardmäßig 19444)
 
 Nachfolgend finden Sie die Liste der Bestellungen :
 
--   **Nom** : Der im Dashboard angezeigte Name,
+-   **Name** : Der im Dashboard angezeigte Name,
 
--   **Afficher** : ermöglicht die Anzeige der Daten im Dashboard
+-   **Anzeige** : ermöglicht die Anzeige der Daten im Dashboard
 
--   **Tester** : Wird zum Testen des Befehls verwendet,
+-   **Test** : Wird zum Testen des Befehls verwendet,
 
 

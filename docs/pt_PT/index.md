@@ -1,6 +1,6 @@
 Este plug-in permite o gerenciamento de um servidor hyperion (o
 Servidor Json está ativo), com gerenciamento e inicialização de cores
-d'effet
+efeito
 
 Configuração do plugin 
 =======================
@@ -23,7 +23,7 @@ equipamento) :
 
 ![hyperion3](../images/hyperion3.PNG)
 
-> **Tip**
+> **Dica**
 >
 > Como em muitos lugares em Jeedom, coloque o mouse na extremidade esquerda
 > abre um menu de acesso rápido (você pode, em
@@ -41,20 +41,20 @@ Aqui você encontra toda a configuração do seu equipamento :
 -   **Objeto pai** : indica o objeto pai ao qual pertence
     o equipamento,
 
--   **Activer** : torna seu equipamento ativo,
+-   **Ativar** : torna seu equipamento ativo,
 
--   **Visible** : torna seu equipamento visível no painel,
+-   **Visivél** : torna seu equipamento visível no painel,
 
 -   **IP** : O IP do servidor hyperion
 
--   **Port** : a porta do servidor hyperion json (por padrão 19444)
+-   **Porta** : a porta do servidor hyperion json (por padrão 19444)
 
 Abaixo você encontra a lista de pedidos :
 
--   **Nom** : o nome exibido no painel,
+-   **Nome** : o nome exibido no painel,
 
--   **Afficher** : permite exibir os dados no painel
+-   **Display** : permite exibir os dados no painel
 
--   **Tester** : permite testar o comando,
+-   **Teste** : permite testar o comando,
 
 

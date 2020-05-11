@@ -1,6 +1,6 @@
 This plugin allows the management of a hyperion server (the
 Json server is active), with color management and launch
-effect
+d'effet
 
 Plugin configuration 
 =======================
@@ -35,7 +35,7 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Ambilight equipment name** : name of equipment
+-   **Name de equipment Ambilight** : name of equipment
     Ambilight,
 
 -   **Parent object** : indicates the parent object to which belongs

@@ -1,6 +1,6 @@
 Dieses Plugin ermöglicht die Verwaltung eines Hyperion-Servers (der
 Json-Server ist aktiv), mit Farbmanagement und Start
-Wirkung
+d'effet
 
 Plugin Konfiguration 
 =======================
@@ -35,7 +35,7 @@ Sobald Sie auf eine davon klicken, erhalten Sie :
 
 Hier finden Sie die gesamte Konfiguration Ihrer Geräte :
 
--   **Name der Ambilight-Ausrüstung** : Name Ihrer Ausrüstung
+-   **Name de Ausrüstung Ambilight** : Name Ihrer Ausrüstung
     Ambilight,
 
 -   **Übergeordnetes Objekt** : gibt das übergeordnete Objekt an, zu dem es gehört

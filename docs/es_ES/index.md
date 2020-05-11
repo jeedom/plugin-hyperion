@@ -1,6 +1,6 @@
 Este complemento permite la gestión de un servidor Hyperion (el
 El servidor Json está activo), con gestión de color y lanzamiento
-efecto
+d'effet
 
 Configuración del plugin 
 =======================
@@ -35,7 +35,7 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre del equipo de Ambilight** : nombre de su equipo
+-   **Nombre de equipo Ambilight** : nombre de su equipo
     Ambilight,
 
 -   **Objeto padre** : indica el objeto padre al que pertenece
@@ -49,7 +49,7 @@ Aquí encontrarás toda la configuración de tu equipo :
 
 -   **Puerto** : el puerto del servidor hyperion json (por defecto 19444)
 
-A continuación encontrará la lista de pedidos. :
+A continuación encontrará la lista de pedidos :
 
 -   **Nombre** : el nombre que se muestra en el tablero,
 

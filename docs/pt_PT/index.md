@@ -1,6 +1,6 @@
 Este plug-in permite o gerenciamento de um servidor hyperion (o
 Servidor Json está ativo), com gerenciamento e inicialização de cores
-efeito
+d'effet
 
 Configuração do plugin 
 =======================
@@ -35,7 +35,7 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome do equipamento Ambilight** : nome do seu equipamento
+-   **Nome de o equipamento Ambilight** : nome do seu equipamento
     Ambilight,
 
 -   **Objeto pai** : indica o objeto pai ao qual pertence

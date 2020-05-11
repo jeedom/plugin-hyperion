@@ -1,33 +1,22 @@
-Este complemento permite la gestión de un servidor Hyperion (el
-El servidor Json está activo), con gestión de color y lanzamiento
-d'effet
+# Complemento Ambilight
 
-Configuración del plugin 
-=======================
+Este complemento permite la administración de un servidor Hyperion (el servidor Json debe estar activo), con administración de color y lanzamiento de efectos.
 
-Después de descargar el complemento, solo necesita activarlo,
-no hay configuración a este nivel.
+# Configuración del plugin 
+
+Después de descargar el complemento, solo necesita activarlo, no hay configuración en este nivel.
 
 ![hyperion](../images/hyperion.PNG)
 
-Configuración del equipo 
-=============================
+# Configuración del equipo 
 
-Se puede acceder a la configuración del equipo Ambilight desde
-Menú de complementos :
+Se puede acceder a la configuración del equipo Ambilight desde el menú Complementos :
 
 ![hyperion2](../images/hyperion2.PNG)
 
-Así es como se ve la página del complemento Ambilight (aquí con ya 1
-equipos) :
+Así es como se ve la página del complemento Ambilight (aquí con 1 dispositivo ya) :
 
 ![hyperion3](../images/hyperion3.PNG)
-
-> **Punta**
->
-> Como en muchos lugares de Jeedom, coloca el mouse en el extremo izquierdo
-> muestra un menú de acceso rápido (puede, en
-> desde tu perfil, siempre déjalo visible).
 
 Una vez que haces clic en uno de ellos, obtienes :
 
@@ -35,26 +24,17 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de equipo Ambilight** : nombre de su equipo
-    Ambilight,
-
--   **Objeto padre** : indica el objeto padre al que pertenece
-    equipo,
-
+-   **Nombre de l'équipement Ambilight** : nombre de su equipo Ambilight,
+-   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Activar** : activa su equipo,
-
 -   **Visible** : hace que su equipo sea visible en el tablero,
-
 -   **IP** : La IP del servidor hyperion
-
 -   **Puerto** : el puerto del servidor hyperion json (por defecto 19444)
 
 A continuación encontrará la lista de pedidos :
 
 -   **Nombre** : el nombre que se muestra en el tablero,
-
 -   **Mostrar** : permite mostrar los datos en el tablero
-
 -   **Probar** : Se usa para probar el comando,
 
 

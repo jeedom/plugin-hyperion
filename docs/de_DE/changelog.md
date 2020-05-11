@@ -1,3 +1,7 @@
+>**Wichtig**
+>
+>Zur Erinnerung: Wenn keine Informationen zum Update vorhanden sind, bedeutet dies, dass es sich nur um die Aktualisierung von Dokumentation, Übersetzung oder Text handelt
+
 # 16.12.2019
 
 - Fehlerbehebung für Widget unter jeedom v4

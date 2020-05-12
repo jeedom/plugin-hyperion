@@ -1,0 +1,44 @@
+{
+    "plugins\/hyperion2\/desktop\/modal\/health.php": {
+        "Module": "Modul",
+        "ID": "",
+        "IP": "",
+        "Date création": "Tanggal pembuatan"
+    },
+    "plugins\/hyperion2\/desktop\/php\/hyperion2.php": {
+        "401 - Accès non autorisé": "401 - Akses tidak sah",
+        "Ajouter un ambilight": "",
+        "Rechercher": "Pencarian",
+        "Gestion": "Manajemen",
+        "Configuration": "Konfigurasi",
+        "Santé": "Bidang Kesehatan",
+        "Mes Ambilight": "",
+        "Sauvegarder": "Menyimpan",
+        "Supprimer": "Menghapus",
+        "Equipement": "Peralatan",
+        "Commandes": "Perintah",
+        "Général": "Umum",
+        "Nom de l'équipement Ambilight": "",
+        "Objet parent": "Objek induk",
+        "Aucun": "Tak ada",
+        "Activer": "Mengaktifkan",
+        "Visible": "Terlihat",
+        "Catégorie": "Kategori",
+        "IP": "",
+        "Port": "",
+        "Nom": "Nama",
+        "Options": "Pilihan",
+        "Action": "Tindakan"
+    },
+    "plugins\/hyperion2\/desktop\/js\/hyperion2.js": {
+        "Santé Ambilight": "",
+        "Afficher": "Memenitikan",
+        "Tester": "Coba"
+    },
+    "plugins\/hyperion2\/core\/class\/hyperion2.class.php": {
+        "L\\'adresse IP ne peut être vide": "",
+        "Couleur": "Warna",
+        "Off": "",
+        "Remise à zéro": "Ulang"
+    }
+}

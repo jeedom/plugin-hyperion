@@ -1,0 +1,44 @@
+{
+    "plugins\/hyperion2\/desktop\/modal\/health.php": {
+        "Module": "Module",
+        "ID": "ID",
+        "IP": "IP",
+        "Date création": "Creation Date"
+    },
+    "plugins\/hyperion2\/desktop\/php\/hyperion2.php": {
+        "401 - Accès non autorisé": "401 - Unauthorized access",
+        "Ajouter un ambilight": "Add an ambilight",
+        "Rechercher": "Search",
+        "Gestion": "Management",
+        "Configuration": "Setup",
+        "Santé": "Health",
+        "Mes Ambilight": "My Ambilight",
+        "Sauvegarder": "Save",
+        "Supprimer": "Delete",
+        "Equipement": "Equipment",
+        "Commandes": "Commands",
+        "Général": "Main",
+        "Nom de l'équipement Ambilight": "Ambilight equipment name",
+        "Objet parent": "Parent object",
+        "Aucun": "None",
+        "Activer": "Activate",
+        "Visible": "Visible",
+        "Catégorie": "Category",
+        "IP": "IP",
+        "Port": "Port",
+        "Nom": "Name",
+        "Options": "Options",
+        "Action": "Action"
+    },
+    "plugins\/hyperion2\/desktop\/js\/hyperion2.js": {
+        "Santé Ambilight": "Ambilight Health",
+        "Afficher": "Show",
+        "Tester": "Test"
+    },
+    "plugins\/hyperion2\/core\/class\/hyperion2.class.php": {
+        "L\\'adresse IP ne peut être vide": "IP address can't be empty",
+        "Couleur": "Color",
+        "Off": "Off",
+        "Remise à zéro": "Reset"
+    }
+}

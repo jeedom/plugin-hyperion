@@ -1,0 +1,44 @@
+{
+    "plugins\/hyperion2\/desktop\/modal\/health.php": {
+        "Module": "Modul",
+        "ID": "Identifikation",
+        "IP": "IP",
+        "Date création": "Erstellungsdatum"
+    },
+    "plugins\/hyperion2\/desktop\/php\/hyperion2.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Ajouter un ambilight": "Fügen Sie ein Ambilight hinzu",
+        "Rechercher": "Suchen nach",
+        "Gestion": "Verwaltung",
+        "Configuration": "Konfiguration",
+        "Santé": "Gesundheit",
+        "Mes Ambilight": "Mein Ambilight",
+        "Sauvegarder": "Speichern",
+        "Supprimer": "Löschen",
+        "Equipement": "Gerät",
+        "Commandes": "Befehle",
+        "Général": "Allgemein",
+        "Nom de l'équipement Ambilight": "Name der Ambilight-Ausrüstung",
+        "Objet parent": "Übergeordnetes Objekt",
+        "Aucun": "Ohne",
+        "Activer": "Aktivieren",
+        "Visible": "Sichtbar",
+        "Catégorie": "Kategorie",
+        "IP": "IP",
+        "Port": "Hafen",
+        "Nom": "Name",
+        "Options": "Optionen",
+        "Action": "Aktion"
+    },
+    "plugins\/hyperion2\/desktop\/js\/hyperion2.js": {
+        "Santé Ambilight": "Ambilight Health",
+        "Afficher": "Anzeige",
+        "Tester": "Test"
+    },
+    "plugins\/hyperion2\/core\/class\/hyperion2.class.php": {
+        "L\\'adresse IP ne peut être vide": "Die IP-Adresse darf nicht leer sein",
+        "Couleur": "Farbe",
+        "Off": "Aus",
+        "Remise à zéro": "Rücksetzen"
+    }
+}

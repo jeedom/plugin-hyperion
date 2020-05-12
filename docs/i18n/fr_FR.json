@@ -1,0 +1,43 @@
+{
+    "changelog.md": {
+        "Changelog Ambilight": "Changelog Ambilight",
+        "IMPORTANT": "IMPORTANT",
+        "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte": "Pour rappel s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de texte",
+        "16\/12\/2019": "16\/12\/2019",
+        "Correction de bug du widget sous jeedom v4": "Correction de bug du widget sous jeedom v4",
+        "29\/03\/2018": "29\/03\/2018",
+        "Correction d'un bug suite à l'ajout de la commande off": "Correction d'un bug suite à l'ajout de la commande off",
+        "27\/03\/2018": "27\/03\/2018",
+        "Ajout commande Off": "Ajout commande Off"
+    },
+    "index.md": {
+        "Plugin Ambilight": "Plugin Ambilight",
+        "Ce plugin permet la gestion d'un serveur hyperion (il faut que le serveur Json soit actif), avec la gestion des couleurs et le lancement d'effet": "Ce plugin permet la gestion d'un serveur hyperion (il faut que le serveur Json soit actif), avec la gestion des couleurs et le lancement d'effet",
+        "Configuration du plugin": "Configuration du plugin",
+        "Après téléchargement du plugin, il vous suffit juste d'activer celui-ci, il n'y a aucune configuration à ce niveau": "Après téléchargement du plugin, il vous suffit juste d'activer celui-ci, il n'y a aucune configuration à ce niveau",
+        "Configuration des équipements": "Configuration des équipements",
+        "La configuration des équipements Ambilight est accessible à partir du menu Plugins": "La configuration des équipements Ambilight est accessible à partir du menu Plugins",
+        "Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1 équipement)": "Voilà à quoi ressemble la page du plugin Ambilight (ici avec déjà 1 équipement)",
+        "Une fois que vous cliquez sur l'un d'eux, vous obtenez": "Une fois que vous cliquez sur l'un d'eux, vous obtenez",
+        "Vous retrouvez ici toute la configuration de votre équipement": "Vous retrouvez ici toute la configuration de votre équipement",
+        "Nom de l'équipement Ambilight": "Nom de l'équipement Ambilight",
+        "nom de votre équipement Ambilight": "nom de votre équipement Ambilight",
+        "Objet parent": "Objet parent",
+        "indique l'objet parent auquel appartient l'équipement": "indique l'objet parent auquel appartient l'équipement",
+        "Activer": "Activer",
+        "permet de rendre votre équipement actif": "permet de rendre votre équipement actif",
+        "Visible": "Visible",
+        "rend votre équipement visible sur le dashboard": "rend votre équipement visible sur le dashboard",
+        "IP": "IP",
+        "L'IP du serveur hyperion": "L'IP du serveur hyperion",
+        "Port": "Port",
+        "le port du serveur hyperion json (par défaut 19444)": "le port du serveur hyperion json (par défaut 19444)",
+        "En dessous vous retrouvez la liste des commandes": "En dessous vous retrouvez la liste des commandes",
+        "Nom": "Nom",
+        "le nom affiché sur le dashboard": "le nom affiché sur le dashboard",
+        "Afficher": "Afficher",
+        "permet d'afficher la donnée sur le dashboard": "permet d'afficher la donnée sur le dashboard",
+        "Tester": "Tester",
+        "permet de tester la commande": "permet de tester la commande"
+    }
+}

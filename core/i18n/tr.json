@@ -40,5 +40,8 @@
         "Couleur": "Renk",
         "Off": "",
         "Remise à zéro": "Sıfırla"
+    },
+    "info.json": {
+        "Plugin hyperion pour le controle de celui-ci": ""
     }
 }

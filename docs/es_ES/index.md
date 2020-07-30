@@ -14,7 +14,7 @@ Se puede acceder a la configuración del equipo Ambilight desde el menú Complem
 
 ![hyperion2](../images/hyperion2.PNG)
 
-Así es como se ve la página del complemento Ambilight (aquí con 1 dispositivo ya) :
+Así es como se ve la página del complemento Ambilight (aquí con ya 1 dispositivo) :
 
 ![hyperion3](../images/hyperion3.PNG)
 
@@ -24,7 +24,7 @@ Una vez que haces clic en uno de ellos, obtienes :
 
 Aquí encontrarás toda la configuración de tu equipo :
 
--   **Nombre de l'équipement Ambilight** : nombre de su equipo Ambilight,
+-   **Nombre del equipo de Ambilight** : nombre de su equipo Ambilight,
 -   **Objeto padre** : indica el objeto padre al que pertenece el equipo,
 -   **Activar** : activa su equipo,
 -   **Visible** : hace que su equipo sea visible en el tablero,

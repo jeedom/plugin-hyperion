@@ -40,5 +40,8 @@
         "Couleur": "цвет",
         "Off": "Выключить",
         "Remise à zéro": "сброс"
+    },
+    "info.json": {
+        "Plugin hyperion pour le controle de celui-ci": ""
     }
 }

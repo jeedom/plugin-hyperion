@@ -40,5 +40,8 @@
         "Couleur": "Warna",
         "Off": "",
         "Remise à zéro": "Ulang"
+    },
+    "info.json": {
+        "Plugin hyperion pour le controle de celui-ci": ""
     }
 }

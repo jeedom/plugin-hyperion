@@ -14,7 +14,7 @@ A configuração do equipamento Ambilight pode ser acessada no menu Plugins :
 
 ![hyperion2](../images/hyperion2.PNG)
 
-É assim que a página do plugin Ambilight se parece (aqui com um dispositivo já) :
+É assim que a página do plugin Ambilight se parece (aqui com 1 dispositivo) :
 
 ![hyperion3](../images/hyperion3.PNG)
 
@@ -24,7 +24,7 @@ Depois de clicar em um deles, você obtém :
 
 Aqui você encontra toda a configuração do seu equipamento :
 
--   **Nome de l'équipement Ambilight** : nome do seu equipamento Ambilight,
+-   **Nome do equipamento Ambilight** : nome do seu equipamento Ambilight,
 -   **Objeto pai** : indica o objeto pai ao qual o equipamento pertence,
 -   **Ativar** : torna seu equipamento ativo,
 -   **Visivél** : torna seu equipamento visível no painel,

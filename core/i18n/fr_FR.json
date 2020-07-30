@@ -40,5 +40,8 @@
         "Couleur": "Couleur",
         "Off": "Off",
         "Remise à zéro": "Remise à zéro"
+    },
+    "info.json": {
+        "Plugin hyperion pour le controle de celui-ci": "Plugin hyperion pour le controle de celui-ci"
     }
 }

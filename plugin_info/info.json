@@ -1,13 +1,34 @@
 {
     "id": "hyperion2",
     "name": "Ambilight",
-    "description": "Plugin hyperion pour le controle de celui-ci",
+    "description": {
+        "fr_FR": "Plugin hyperion pour le controle de celui-ci",
+        "en_US": "Hyperion plugin for controlling it",
+        "es_ES": "Complemento Hyperion para controlarlo",
+        "de_DE": "Hyperion-Plugin zur Steuerung",
+        "pt_PT": "Hyperion plugin para controlá-lo"
+    },
     "licence": "AGPL",
     "author": "Loïc",
     "require": "3.0",
     "category": "multimedia",
     "changelog": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/hyperion2\/changelog",
     "documentation": "https:\/\/doc.jeedom.com\/#language#\/plugins\/multimedia\/hyperion2\/",
-    "language" : ["fr_FR","en_US","de_DE","sp_SP"],
-"compatibility" : ["miniplus","smart","rpi","docker","diy","mobile","v4"]
+    "language": [
+        "fr_FR",
+        "en_US",
+        "es_ES",
+        "de_DE",
+        "ru_RU",
+        "pt_PT"
+    ],
+    "compatibility": [
+        "miniplus",
+        "smart",
+        "rpi",
+        "docker",
+        "diy",
+        "mobile",
+        "v4"
+    ]
 }

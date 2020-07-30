@@ -40,5 +40,8 @@
         "Couleur": "カラー",
         "Off": "オフ",
         "Remise à zéro": "リセット"
+    },
+    "info.json": {
+        "Plugin hyperion pour le controle de celui-ci": ""
     }
 }

@@ -40,5 +40,8 @@
         "Couleur": "Cor",
         "Off": "Fora",
         "Remise à zéro": "Restabelecer"
+    },
+    "info.json": {
+        "Plugin hyperion pour le controle de celui-ci": "Hyperion plugin para controlá-lo"
     }
 }

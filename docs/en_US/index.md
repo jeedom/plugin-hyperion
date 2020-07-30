@@ -14,7 +14,7 @@ The configuration of Ambilight equipment is accessible from the Plugins menu :
 
 ![hyperion2](../images/hyperion2.PNG)
 
-This is what the Ambilight plugin page looks like (here with 1 device already) :
+This is what the Ambilight plugin page looks like (here with already 1 device) :
 
 ![hyperion3](../images/hyperion3.PNG)
 
@@ -24,7 +24,7 @@ Once you click on one of them, you get :
 
 Here you find all the configuration of your equipment :
 
--   **Name de l'équipement Ambilight** : name of your Ambilight equipment,
+-   **Ambilight equipment name** : name of your Ambilight equipment,
 -   **Parent object** : indicates the parent object to which the equipment belongs,
 -   **Activate** : makes your equipment active,
 -   **Visible** : makes your equipment visible on the dashboard,

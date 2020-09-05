@@ -156,4 +156,4 @@ class hyperion2Cmd extends cmd {
 	/*     * **********************Getteur Setteur*************************** */
 }
 
-?>
+ 

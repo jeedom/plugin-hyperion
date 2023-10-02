@@ -2,46 +2,46 @@
     "plugins\/hyperion2\/desktop\/modal\/health.php": {
         "Module": "Modul",
         "ID": "Kimlik",
-        "IP": "",
+        "IP": "IP",
         "Date création": "Oluşturma tarihi"
     },
     "plugins\/hyperion2\/desktop\/php\/hyperion2.php": {
         "401 - Accès non autorisé": "401 - Yetkisiz erişim",
-        "Ajouter un ambilight": "",
+        "Ajouter un ambilight": "Ajouter un ambilight",
         "Rechercher": "Arayın",
         "Gestion": "Idare",
         "Configuration": "Ayar",
         "Santé": "Sağlık",
-        "Mes Ambilight": "",
+        "Mes Ambilight": "Mes Ambilight",
         "Sauvegarder": "Kaydet",
         "Supprimer": "Sil",
         "Equipement": "Cihaz",
         "Commandes": "Komutalar",
         "Général": "Genel",
-        "Nom de l'équipement Ambilight": "",
+        "Nom de l'équipement Ambilight": "Nom de l'équipement Ambilight",
         "Objet parent": "Üst nesne",
         "Aucun": "Hiçbir",
         "Activer": "Etkinleştir",
         "Visible": "Görülebilir",
         "Catégorie": "Kategori",
-        "IP": "",
-        "Port": "",
+        "IP": "IP",
+        "Port": "Port",
         "Nom": "İsim",
         "Options": "Opsiyonlar",
         "Action": "Eylem"
     },
     "plugins\/hyperion2\/desktop\/js\/hyperion2.js": {
-        "Santé Ambilight": "",
+        "Santé Ambilight": "Santé Ambilight",
         "Afficher": "Göster",
         "Tester": "Test et"
     },
     "plugins\/hyperion2\/core\/class\/hyperion2.class.php": {
-        "L\\'adresse IP ne peut être vide": "",
+        "L\\'adresse IP ne peut être vide": "L\\'adresse IP ne peut être vide",
         "Couleur": "Renk",
-        "Off": "",
+        "Off": "Off",
         "Remise à zéro": "Sıfırla"
     },
     "info.json": {
-        "Plugin hyperion pour le controle de celui-ci": ""
+        "Plugin hyperion pour le controle de celui-ci": "Plugin hyperion pour le controle de celui-ci"
     }
 }
